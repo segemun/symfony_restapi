@@ -1,0 +1,13 @@
+fos_oauth_server_token:
+        resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+    
+app:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix: /

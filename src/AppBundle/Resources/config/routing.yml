@@ -1,0 +1,4 @@
+demo:
+    path:     /me
+    defaults: { _controller: "AppBundle:User:getCurrentUser" }
+    methods:  [GET, OPTIONS]

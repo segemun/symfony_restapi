@@ -1,0 +1,5 @@
+services:
+    user:
+        class: AppBundle\Service\UserService
+        arguments:
+            serviceContainer: "@service_container"
